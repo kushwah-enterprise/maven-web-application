@@ -15,7 +15,7 @@ stage('Build'){
 
 sh "${mavenHome}/bin/mvn clean package"
 }
-
+/*
 //to generate sonarqube report
 stage('ExecuteSonarQubeReport'){
 sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -35,6 +35,6 @@ sshagent(['7920a0ac-afeb-4feb-a1df-b99a3010797c']) {
 
 
 }
-
+*/
 
 }//node close
